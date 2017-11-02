@@ -15,16 +15,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 100px;
+    padding: 100px 10% 100px 10%;
     box-sizing: border-box;
 }
 
 h1 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 400;
     color: #2c3e50;
     margin: 0;
+    padding-bottom: 8px;
 }
 
 
@@ -46,12 +47,21 @@ header i {
     flex-direction: column;
 }
 
+#about-me i {
+    font-weight: 500;
+    font-style: normal;
+}
+
+#about-me h1 {
+    font-weight: 300;
+}
+
 #about-me a {
-    text-decoration: underline;
+    color: #2c3e50;
 }
 
 #about-me p {
-    font-size: 36px;
+    font-size: 24px;
     color: #2c3e50;
     margin: 0;
 }
@@ -59,4 +69,5 @@ header i {
 #more-me p {
     color: #2c3e50;
     margin: 0;
+    padding-bottom: 12px;
 }
