@@ -40,7 +40,25 @@
                 selector: '.particle-bg',
                 sizeVariations: 4,
                 color: '#2c3e50',
-                maxParticles: 200
+                maxParticles: 200,
+                responsive: [{
+                    breakpoint: 768,
+                    options: {
+                        maxParticles: 200,
+                    }
+                }, {
+                    breakpoint: 425,
+                    options: {
+                        maxParticles: 100,
+                        sizeVariations: 3
+                    }
+                }, {
+                    breakpoint: 320,
+                    options: {
+                        maxParticles: 100,
+                        sizeVariations: 2
+                    }
+                }]
             });
         };
     </script>
