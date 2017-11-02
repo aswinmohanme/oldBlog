@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    height:100%;
+}
+
+/* GLOBALS */
+.container {
+    width: 80%;
+    height:100%;
+    padding: 100px 10% 100px 10%;
+}
+
+header a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#about-me {
+}
+
+#more-me {
+
+}
