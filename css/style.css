@@ -1,26 +1,62 @@
-
+html,
 body {
     margin: 0;
     padding: 0;
     background-color: #ecf0f1;
-    height:100%;
+
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* GLOBALS */
+
 .container {
     width: 80%;
-    height:100%;
-    padding: 100px 10% 100px 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    box-sizing: border-box;
 }
 
-header a{
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #2c3e50;
+    margin: 0;
+}
+
+
+header a {
     text-decoration: none;
+    font-weight: 500;
     color: #2c3e50;
 }
 
-#about-me {
+
+header i {
+    color: #2c3e50;
+    font-weight: 300;
+    font-style: normal;
 }
 
-#more-me {
+#about-me {
+    display: flex;
+    flex-direction: column;
+}
 
+#about-me a {
+    text-decoration: underline;
+}
+
+#about-me p {
+    font-size: 36px;
+    color: #2c3e50;
+    margin: 0;
+}
+
+#more-me p {
+    color: #2c3e50;
+    margin: 0;
 }
