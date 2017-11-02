@@ -75,6 +75,10 @@ header i {
     margin: 0;
 }
 
+#copyright {
+    font-weight: 300;
+}
+
 #more-me p {
     color: #2c3e50;
     margin: 0;
