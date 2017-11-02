@@ -22,7 +22,7 @@
 
         <section id="about-me">
             <h1>I'm <i>Aswin Mohan</i></h1>
-            <p><a href="#">Design</a> // <a href="#">Code</a></p>
+            <p><a href="#">Creative</a> // <a href="#">Code</a></p>
         </section>
 
         <section id="more-me">
@@ -30,6 +30,20 @@
             <p>Copyright &copy; aswinmohanme</p>
         </section>
     </div>
+
+    <canvas class="particle-bg"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.1.0/particles.min.js"></script>
+
+    <script>
+        window.onload = function() {
+            Particles.init({
+                selector: '.particle-bg',
+                sizeVariations: 4,
+                color: '#2c3e50',
+                maxParticles: 200
+            });
+        };
+    </script>
 </body>
 
 </html>
