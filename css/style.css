@@ -11,11 +11,9 @@ body {
 
 .container {
     width: 80%;
-    height: 100vh;
-    min-height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: left;
     padding: 100px 10% 100px 10%;
     box-sizing: border-box;
 }
@@ -25,7 +23,7 @@ body {
     display: block;
     top: 0;
     left: 30vw;
-    z-index: 0;
+    z-index: 1;
 }
 
 h1 {
@@ -55,6 +53,7 @@ header i {
     display: flex;
     flex-direction: column;
     padding: 36px 0 36px 0;
+    margin:120px 0;
 }
 
 #about-me i {
@@ -78,6 +77,10 @@ header i {
 
 #copyright {
     font-weight: 300;
+}
+
+#more-me {
+
 }
 
 #more-me p {
