@@ -42,8 +42,7 @@ p {
 .container {
     width: 80%;
     display: flex;
-    min-height: 620px;
-    height: 100vh;
+    min-height: 620px; height: 100vh;
     flex-direction: column;
     justify-content: space-between;
     padding: 10%;
@@ -92,4 +91,5 @@ header i {
 
 #more-me p {
     padding-bottom: 12px;
+    line-height: 24px;
 }
