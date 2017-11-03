@@ -7,12 +7,43 @@ body {
     overflow-x: hidden;
 }
 
+body {
+}
+
+/* Element Wise Styling*/
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #2c3e50;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+a {
+    position: relative;
+    z-index: 9999;
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+i {
+    color: #2c3e50;
+    font-style: normal;
+}
+
+p {
+    color: #2c3e50;
+    margin: 0;
+}
+
 /* GLOBALS */
 
 .container {
     width: 80%;
     display: flex;
-    min-height: 540px;
+    min-height: 620px;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
@@ -25,30 +56,16 @@ body {
     display: block;
     top: 0;
     left: 30vw;
-    z-index: 1;
+    z-index: 0;
 }
-
-h1 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    color: #2c3e50;
-    margin: 0;
-    padding-bottom: 8px;
-}
-
 
 header a {
-    text-decoration: none;
     font-weight: 500;
-    color: #2c3e50;
 }
 
 
 header i {
-    color: #2c3e50;
     font-weight: 300;
-    font-style: normal;
 }
 
 #about-me {
@@ -59,20 +76,14 @@ header i {
 
 #about-me i {
     font-weight: 500;
-    font-style: normal;
 }
 
 #about-me h1 {
     font-weight: 300;
 }
 
-#about-me a {
-    color: #2c3e50;
-}
-
 #about-me p {
     font-size: 24px;
-    color: #2c3e50;
     margin: 0;
 }
 
@@ -81,7 +92,5 @@ header i {
 }
 
 #more-me p {
-    color: #2c3e50;
-    margin: 0;
     padding-bottom: 12px;
 }
