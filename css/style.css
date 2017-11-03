@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #ecf0f1;
     font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /* GLOBALS */
