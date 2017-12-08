@@ -22,7 +22,6 @@ h1 {
 
 a {
     position: relative;
-    z-index: 9999;
     color: #2c3e50;
     text-decoration: underline;
 }
@@ -47,14 +46,6 @@ p {
     justify-content: space-between;
     padding: 10%;
     box-sizing: border-box;
-}
-
-.particle-bg {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 30vw;
-    z-index: 0;
 }
 
 header a {
