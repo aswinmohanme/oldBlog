@@ -40,20 +40,20 @@ a:hover {
 
 .main-intro {
     padding-top: 32%;
+    margin-right:auto;
 }
 
 .main-intro h1 {
     font-size: 48px;
     font-weight: 700;
-    
+
     overflow: hidden;
     white-space: nowrap;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     border-right: 4px solid #2F2C43;
 
-    animation: 
-        typing 4.0s steps(40, end),
-        blinking-caret 0.8s step-end infinite;
+    animation: typing 3.5s steps(40, end),
+    blinking-caret 0.7s step-end infinite;
 }
 
 @keyframes typing {
@@ -66,8 +66,13 @@ a:hover {
 }
 
 @keyframes blinking-caret {
-    from, to {border-color: transparent}
-    50% {border-color: #2F2C43}
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #2F2C43
+    }
 }
 
 .main-intro h3 {
