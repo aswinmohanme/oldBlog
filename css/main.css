@@ -12,24 +12,20 @@ body {
     font-family: 'Karla', 'sans-serif';
     color: #2F2C43;
     background-color: #FAFAFB;
+
+    font-size: 16px;
 }
 
-@media all and (min-width: 600px){
-    html {
-        font-size: 16px;
-    }
-}
-
-@media all and (max-width: 599px) and (min-width: 320px){
-    html {
-        font-size: 14px;
-    }
-}
 
 a {
     text-decoration: none;
     color: #2F2C43;
     font-size: 1rem;
+}
+
+
+a:hover {
+    color: #3C16F9;
 }
 
 h1 {
@@ -42,8 +38,24 @@ h3 {
     font-weight: 400;
 }
 
-a:hover {
-    color: #3C16F9;
+@media all and (min-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
 }
 
 .container {
