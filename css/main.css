@@ -199,3 +199,11 @@ h3 {
 .card h1 {
     margin: auto;
 }
+
+.card div {
+    padding-top: 1em;
+}
+
+.card img {
+    margin: auto;
+}
