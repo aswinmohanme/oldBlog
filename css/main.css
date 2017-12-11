@@ -15,6 +15,9 @@ body {
     font-size: 16px;
 }
 
+section {
+    margin-top: 24vh;
+}
 
 a {
     text-decoration: none;
@@ -53,7 +56,6 @@ h3 {
 }
 
 .main-intro {
-    padding-top: 24vh;
     margin-right: auto;
 }
 
@@ -117,7 +119,6 @@ h3 {
 }
 
 .work-section {
-    margin-top: 24vh;
     max-width: 100%;
 }
 
