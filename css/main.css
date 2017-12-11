@@ -37,31 +37,13 @@ h3 {
     font-weight: 400;
 }
 
-@media all and (min-width: 600px) {
-    h1 {
-        font-size: 3rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-}
-
-@media all and (max-width: 599px) and (min-width: 320px) {
-    h1 {
-        font-size: 2.4rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-    }
-}
-
 .container {
     display: flex;
     flex: 1;
-
+    flex-direction: column;
     padding: 8%;
+
+    max-width: 1366px;
 }
 
 .about-me {
@@ -133,3 +115,67 @@ h3 {
 .main-nav li:last-child {
     padding-right: 0;
 }
+
+.work-section {
+    margin-top: 24vh;
+    max-width: 100%;
+}
+
+.grid {
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.cell {
+    width: calc(100%/4);
+    padding: 1em;
+}
+
+.cell img {
+    display: block;
+}
+
+.resp-img {
+    max-width: 100%;
+}
+
+@media all and (min-width: 320px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .grid: {
+        flex-direction: column;
+    }
+
+    .cell {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    
+    .cell {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .cell {
+        width: calc(100%/3);
+    }
+}
+
