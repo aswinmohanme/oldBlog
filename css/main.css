@@ -23,6 +23,8 @@ a {
     text-decoration: none;
     color: #2F2C43;
     font-size: 1rem;
+
+    border-bottom: 1px solid #2F2C43;
 }
 
 
@@ -40,6 +42,14 @@ h3 {
     font-weight: 400;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 0 2vw;
+}
 .container {
     display: flex;
     flex: 1;
@@ -105,9 +115,6 @@ h3 {
 }
 
 .main-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
 }
 
 .main-nav li {
@@ -178,6 +185,22 @@ h3 {
     margin-top: 8vh;
 }
 
+.contact-section div {
+    margin-top: 8vh;
+}
+
+.social-nav {
+    margin-top: 2vh;
+
+}
+
+.social-nav ul {
+    margin: 0 -1vw;
+}
+
+.social-nav li {
+    padding: 1vw;
+}
 
 @media all and (min-width: 320px) {
     h1 {
@@ -216,3 +239,4 @@ h3 {
         width: calc(100%/4 - 2em);
     }
 }
+
