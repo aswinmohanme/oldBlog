@@ -202,7 +202,7 @@ li {
     padding: 1vw;
 }
 
-@media all and (min-width: 320px) {
+@media all and (min-width: 320px) and (max-width: 599px){
     h1 {
         font-size: 2.4rem;
     }
@@ -218,9 +218,17 @@ li {
     .cell {
         width: 100%;
     }
+
+    .social-nav ul{
+        flex-direction: column;
+    }
+
+    .social-nav li {
+        padding-top: 2vh;
+    }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 600px) and (max-width: 999px){
     h1 {
         font-size: 3rem;
     }
