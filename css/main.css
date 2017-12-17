@@ -185,6 +185,10 @@ li {
     margin-top: 8vh;
 }
 
+.about-section p {
+    line-height: 1.6;
+}
+
 .contact-section div {
     margin-top: 8vh;
 }
